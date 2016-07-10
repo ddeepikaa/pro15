@@ -1,5 +1,6 @@
 # pro15
 class largest
+{
  public static void main(string[] args)
 {
   int a[]={31,14,16,11,7},ctr;
@@ -10,14 +11,18 @@ class largest
     for(ctr1=ctr+1;ctr1<size;ctr1++)
     {
       if(arr[ctr]>arr[ctr1])
-        temp=arr[ctr];
-        arr[ctr]=arr[ctr1];
-        arr[ctr1]=temp;
-    }
+        {
+          temp=arr[ctr];
+          arr[ctr]=arr[ctr1];
+          arr[ctr1]=temp;
+        }   
+         
+        }
       
   }
 for(ctr=0;ctr<size;ctr++)
 {
   printf("%d",arr[0]);
  }
+}
 }

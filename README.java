@@ -1,6 +1,6 @@
 # pro15
-#include<stdio.h>
-int main()
+class largest
+ public static void main(string[] args)
 {
   int a[]={31,14,16,11,7},ctr;
   size=sizeof(arr)/sizeof(arr[0]);
